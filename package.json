@@ -1,0 +1,23 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "build": "rimraf ./dist && babel src --out-dir dist --presets=@babel/env"
+  },
+  "keywords": [],
+  "author": "Fadi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "nodemon": "^1.18.6"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0"
+  }
+}
