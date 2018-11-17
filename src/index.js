@@ -1,6 +1,4 @@
 import '@babel/polyfill';
-import './template-string';
-
-const welcomeFunc = () => `Welcome To RN Course`;
-
-const message = welcomeFunc();
+//
+// import revieve values from other modules
+import './promises'
