@@ -1,4 +1,9 @@
-
+/*
+Summary
+1- Arrow functions work like normal method expressions in JavaScript, but with a shorter syntax. They also have the added benefit of being anonymous. In addition, unlike normal JavaScript function, they do not bind the this object to their function scope.
+2- The map helper method in es6 allows us to create arrays by calling a function on each element of an initial array.
+3- The filter helper method in es6 creates new arrays with all the same elements of an initial array depending on a test that we give it.
+*/
 function greeting(name) {
   return `Hi ${name}`
 }

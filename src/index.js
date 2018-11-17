@@ -1,6 +1,10 @@
 import '@babel/polyfill';
-import './functions';
+//
+// import revieve values from other modules
+import sumFunc, {points, greeting} from './modules';
 
-const welcomeFunc = () => `Welcome To RN Course`;
+// console.log('points ', points)
+// console.log('greeting ', greeting('fadi'));
+console.log('sumFunc ', sumFunc(23, 43))
 
-const message = welcomeFunc();
+
