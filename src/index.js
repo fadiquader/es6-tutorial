@@ -1,5 +1,5 @@
 import '@babel/polyfill';
-import './template-string';
+import './operating-destructring';
 
 const welcomeFunc = () => `Welcome To RN Course`;
 
