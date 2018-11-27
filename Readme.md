@@ -31,4 +31,4 @@ exports.sum = sum;
 
 ## What is weback ? 
 https://github.com/webpack/webpack
-Weback is a bundler for modules, we use it with babel to convert the code and bundle modules as well (bunncles mpdules into one file), but we can use babel without webapck 
+Weback is a bundler for modules, we use it with babel to convert the code and bundle modules as well, but we can use babel without webapck 
